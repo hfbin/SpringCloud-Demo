@@ -74,7 +74,28 @@
         </dependencies>
     </dependencyManagement>
 
-
+    <build>
+        <finalName>microservicecloud</finalName>
+        <resources>
+            <resource>
+                <!--允许访问所有工程下的resources-->
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <!--以$开始与$结尾的可以解析当前工程下的信息-->
+                        <delimit>$</delimit>
+                    </delimiters>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>

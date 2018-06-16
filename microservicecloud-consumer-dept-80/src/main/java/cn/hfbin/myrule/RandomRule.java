@@ -6,7 +6,11 @@ import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.AbstractLoadBalancerRule;
 import com.netflix.loadbalancer.ILoadBalancer;
 import com.netflix.loadbalancer.Server;
-
+/*
+* 参考随机数的源码来修改
+*
+* https://github.com/Netflix/ribbon/blob/master/ribbon-loadbalancer/src/main/java/com/netflix/loadbalancer/RandomRule.java
+* */
 public class RandomRule extends AbstractLoadBalancerRule {
 
     // total = 0 // 当total==5以后，我们指针才能往下走，

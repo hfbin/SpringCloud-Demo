@@ -9,9 +9,15 @@
         <module name="microserviceclou-deureka-7002" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-consumer-dept-80" />
-        <module name="microservicecloud-eureka-7001" />
         <module name="microservicecloud-eureka-7003" />
         <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-provider-dept-8002" />
+      </profile>
+      <profile name="Annotation profile for microservicecloud" enabled="true">
+        <sourceOutputDir name="../microservicecloud-eureka-7003/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../microservicecloud-eureka-7003/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicecloud-eureka-7001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +28,7 @@
       <module name="microservicecloud-eureka-7001" target="1.8" />
       <module name="microservicecloud-eureka-7003" target="1.8" />
       <module name="microservicecloud-provider-dept-8001" target="1.8" />
+      <module name="microservicecloud-provider-dept-8002" target="1.8" />
       <module name="microservicecloudapi" target="1.8" />
       <module name="microservicecloudproviderdept8001" target="1.8" />
     </bytecodeTargetLevel>

@@ -22,6 +22,7 @@ public class ConfigBean //boot -->spring   applicationContext.xml --- @Configura
 
 
 	/*
+	* 注意：不可以放在与注解下 @ComponentScan 的同包或者子包下，否则更换算法规则不起作用 （自定义算法也是一样）
 	* 切换 访问的算法 很简单只需要换成我们要返回算法的实例即可
 	* 默认有七个算法，可以自定义自己的算法
 	* */

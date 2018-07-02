@@ -2,9 +2,9 @@ package cn.hfbin.springcloud;
 
 /**
  * Created by: HuangFuBin
- * Date: 2018/7/1
- * Time: 10:48
+ * Date: 2018/7/2
+ * Time: 23:42
  * Such description:
  */
-public class demo {
+public class tes {
 }

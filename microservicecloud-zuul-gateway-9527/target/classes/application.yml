@@ -16,10 +16,10 @@ eureka:
 
 zuul:
   #ignored-services: microservicecloud-dept   #不包括这个微服务名字，即以这个开头的路径是访问不了的
-  prefix: /hfbin
+  prefix: /hfbin   #设置统一前缀路径
   ignored-services: "*"  #忽略所有的微服务真实名字
   routes:
-    mydept.serviceId: microservicecloud-dept
+    mydept.serviceId: microservicecloud-dept #
     mydept.path: /mydept/**
  
 info:

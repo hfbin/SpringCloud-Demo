@@ -11,3 +11,5 @@
 [ 【三】Rest微服务构建案例工程模块 ](https://blog.csdn.net/qq_33524158/article/details/82667160)
 
 [ 【四】Eureka服务注册与发现 ](https://blog.csdn.net/qq_33524158/article/details/82760308)
+
+[ 【五】Ribbon负载均衡 ](https://blog.csdn.net/qq_33524158/article/details/82779701)

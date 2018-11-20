@@ -1,0 +1,5 @@
+/Users/huangfubin/Downloads/SpringCloud-Demo-master/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/hfbin/springcloud/dao/DeptDao.java
+/Users/huangfubin/Downloads/SpringCloud-Demo-master/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/hfbin/springcloud/controller/DeptController.java
+/Users/huangfubin/Downloads/SpringCloud-Demo-master/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/hfbin/springcloud/service/DeptService.java
+/Users/huangfubin/Downloads/SpringCloud-Demo-master/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/hfbin/springcloud/DeptProvider8001_Hystrix_App.java
+/Users/huangfubin/Downloads/SpringCloud-Demo-master/microservicecloud-provider-dept-hystrix-8001/src/main/java/cn/hfbin/springcloud/service/impl/DeptServiceImpl.java
